@@ -36,6 +36,7 @@ a {
   background-image: url("../img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash 1.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 715px;
 }
 
@@ -281,6 +282,7 @@ p.about-company-item {
 .review {
   padding: 0 140px;
   display: flex;
+  align-items: center;
 }
 .review-item {
   padding: 15px 10px;
