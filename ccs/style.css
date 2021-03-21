@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #533738;
+  background-color: #e5e5e5;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation a,
+.main-header-logo a,
+.button-galery a {
+  color: #533738;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.main-header-logo a:hover,
+.main-header-logo a:focus {
+  color: #cc8b86;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  color: #533738;
+  background-color: #e5e5e5;
+  background-image: url("../img/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash 1.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 715px;
+}
+
+.main-navigation {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-navigation {
+  display: flex;
+}
+
+.main-header-logo {
+  margin: auto;
+}
+
+.site-navigation-item {
+  list-style: none;
+  padding: 10px;
+  margin: auto;
+}
+
+.stydio-contacts {
+  margin: auto;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 62px;
+}
+
+.heading-advantages {
+  margin: 38px 600px 12px 185px;
+}
+.advantages p {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 600px 40px 185px;
+  padding-right: 50px;
+}
+
+.button-advantages {
+  background-color: #cc8b86;
+  margin: 0 600px 0 185px;
+  text-align: center;
+  padding: 25px 80px;
+  color: #533738;
+}
+.about-company-header {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-company {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+img.about-company-item {
+  padding: 0px 30px 0 130px;
+  margin: 0;
+}
+
+p.about-company-item {
+  padding: 0px 125px 0 30px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  background: #8d7370;
+  list-style: none;
+}
+
+.features-item {
+  text-align: center;
+  color: #ffffff;
+}
+
+.features-item.number {
+  list-style: none;
+  font-size: 50px;
+  line-height: 62px;
+  margin-top: 85px;
+}
+
+.features-item.text {
+  list-style: none;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 85px;
+}
+
+.portfolio {
+  background-color: #e5e5e5;
+  margin: 50px 50px 40px 50px;
+}
+
+.portfolio-header {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.gallery-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+  margin-bottom: 15px;
+}
+
+.gallery-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+}
+
+.gallerry-item {
+  height: 451px;
+  position: relative;
+}
+
+.gallerry-discription {
+  z-index: 1;
+  background: rgba(100, 72, 69, 0.8);
+  position: absolute;
+  height: 100%;
+  color: #ffffff;
+}
+
+.gallerry-header {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  padding: 30px 100px 5px 100px;
+}
+
+.gallerry-discription p {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+  text-align: left;
+}
+
+.button-galery {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #533738;
+  padding: 20px;
+}
+
+.comands {
+  background: #e2c4ba;
+}
+
+.comands-header {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.comand {
+  display: flex;
+  margin-left: 140px;
+  margin-right: 140px;
+  justify-content: space-around;
+}
+.comand-item {
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+.comand-item p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.howworks {
+  background: #e2c4ba;
+}
+
+.howworks-header {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.howwork {
+  display: flex;
+  padding: 0 100px;
+}
+
+.howwork-item {
+  list-style: none;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.howwork-item span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  font-size: 30px;
+  background: #8d7370;
+  border-radius: 50%;
+  line-height: 70px;
+}
+
+.howwork-item p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.reviews {
+  background: #e5e5e5;
+}
+
+.reviews-header {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.review {
+  padding: 0 140px;
+  display: flex;
+}
+.review-item {
+  padding: 15px 10px;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.review-item p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: start;
+}
+
+.review-arrow {
+  background: #cc8b86;
+  border: 1px solid #cc8b86;
+  border-radius: 50%;
+}
+.review-uppercase {
+  text-transform: uppercase;
+}
+
+.requests {
+  display: flex;
+  justify-content: space-around;
+  background: #8d7370;
+  padding-left: 110px;
+  padding-right: 100px;
+}
+.request {
+  padding: 10px;
+}
+.request-header {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: start;
+  color: #ffffff;
+}
+
+.request p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.6;
+  text-align: start;
+  padding-right: 10px;
+}
+
+form {
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  border: 1px solid #8d7370;
+  background: #8d7370;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f6ede9;
+  border-bottom: 1px solid #ffffff;
+  transform: rotate(0.11deg);
+}
+input[type="submit"] {
+  margin: 25px 0;
+  padding: 15px 75px;
+  background-color: #cc8b86;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+  border: 1px solid #cc8b86;
+  text-align: center;
+}
+.map {
+  display: flex;
+}
+.main-footer {
+  background: #e5e5e5;
+}
+.footer-copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contacts-copyright {
+  display: flex;
+  padding: 35px 0;
+}
+
+.contacts-item {
+  margin-right: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+.copyright-item {
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
